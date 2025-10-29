@@ -23,6 +23,7 @@ export default function Navbar() {
           <>
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><button onClick={logout}>Logout</button></li>
+            
           </>
         )}
       </ul>
