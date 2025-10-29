@@ -15,6 +15,7 @@ export default function Signup() {
       navigate("/");
     } catch {
       alert("Registration failed. Username or email may already exist.");
+      
     }
   };
 
